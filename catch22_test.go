@@ -23,6 +23,16 @@ func Test_Catch22(t *testing.T) {
 			fun: DN_HistogramMode_10,
 			res: -0.7822545170783997,
 		},
+		// Case 2
+		{
+			fun: SB_BinaryStats_mean_longstretch1,
+			res: 88,
+		},
+		// Case 3
+		{
+			fun: SB_BinaryStats_diff_longstretch0,
+			res: 84,
+		},
 	}
 
 	for i, tc := range testCases {
