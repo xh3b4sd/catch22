@@ -15,7 +15,7 @@ func SB_BinaryStats_diff_longstretch0(lis []float32) float32 {
 	var l float32
 	var s float32
 	for i := 0; i < len(lis); i++ {
-		if (b[i] == 1) || (i == len(lis)-1) {
+		if (b[i] == 1) || (i == len(lis)-2) {
 			c := float32(i) - l
 
 			if c > s {

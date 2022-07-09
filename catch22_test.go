@@ -31,7 +31,17 @@ func Test_Catch22(t *testing.T) {
 		// Case 3
 		{
 			fun: SB_BinaryStats_diff_longstretch0,
-			res: 84,
+			res: 83,
+		},
+		// Case 4
+		{
+			fun: DN_OutlierInclude_n_001_mdrmd,
+			res: -0.2370370626449585,
+		},
+		// Case 5
+		{
+			fun: DN_OutlierInclude_p_001_mdrmd,
+			res: +0.4074074074074100,
 		},
 	}
 
